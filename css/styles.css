@@ -127,7 +127,10 @@ img {
 }
 .line {
   border-bottom: 1px solid #ececec;
-  width: 1600px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* -----------Main---------- */
@@ -135,7 +138,17 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   text-align: center;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -252,6 +265,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--address-color);
+  margin-bottom: 30px;
 }
 .main-employee-list {
   display: flex;
@@ -267,7 +281,26 @@ img {
 }
 .div-main-eployee {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
+}
+
+.main-social-list {
+  display: flex;
+  justify-content: center;
+}
+.main-social-item + .main-social-item {
+  margin-left: 10px;
+}
+.main-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.main-social-icon {
 }
 
 /* --------Footer-------- */
