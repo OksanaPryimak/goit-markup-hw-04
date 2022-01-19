@@ -162,7 +162,7 @@ img {
   background-position: center;
   background-size: cover;
   text-align: center;
-  width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -274,7 +274,7 @@ img {
 
 /* Main employee */
 .main-employee {
-  padding-bottom: 61px;
+  padding-bottom: 94px;
   padding-top: 94px;
   background: #e5e5e5;
 }
@@ -328,15 +328,7 @@ img {
 .main-social-item + .main-social-item {
   margin-left: 10px;
 }
-.main-social-link1 {
-  width: 44px;
-  height: 44px;
-  background-color: var(--accent-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
+
 .main-social-link {
   width: 44px;
   height: 44px;
@@ -356,10 +348,6 @@ img {
 .main-social-link:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-}
-
-.main-social-icon1 {
-  fill: var(--white-color);
 }
 
 /* ---clients---- */
@@ -391,7 +379,7 @@ img {
   height: 92px;
   display: flex;
   background-color: var(--white-color);
-  border: 1px solid #afb1b8;
+  border: 1px solid #f5f4fa;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
@@ -511,18 +499,7 @@ img {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-.footer-social-link1 {
-  width: 44px;
-  height: 44px;
-  background-color: var(--accent-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-.footer-social-icon1 {
-  fill: var(--white-color);
-}
+
 /* --------Portfolio menu =---------*/
 .portfolio-menu-button1 {
   background-color: var(--accent-color);
@@ -560,6 +537,8 @@ img {
 .portfolio-menu-button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-menu {
