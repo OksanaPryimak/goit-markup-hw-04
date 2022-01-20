@@ -142,9 +142,6 @@ img {
 }
 .line {
   border-bottom: 1px solid #ececec;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -276,7 +273,7 @@ img {
 .main-employee {
   padding-bottom: 94px;
   padding-top: 94px;
-  background: #e5e5e5;
+  background: #f5f4fa;
 }
 .main-employee-title {
   font-size: 36px;
@@ -379,7 +376,7 @@ img {
   height: 92px;
   display: flex;
   background-color: var(--white-color);
-  border: 1px solid #f5f4fa;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   justify-content: center;
   align-items: center;
